@@ -12,7 +12,7 @@ function config() {
       }
   },
     prod: {
-       baseUrl: props['DEV_BASE_URL'],
+       baseUrl: props['PROD_BASE_URL'],
        inventoryCol: 14,
        startingRow: 6,
        headers: {

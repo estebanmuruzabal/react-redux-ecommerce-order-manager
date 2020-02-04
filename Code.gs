@@ -120,8 +120,6 @@ function getInventory() {
   var startingCol = config().inventoryCol;
   for (i = 0; i < items.length; i++) {
     var col = startingCol + i;
-    Logger.log(items[i]);
-    Logger.log(col);
     ss.getRange(2, col).setValue(items[i]._id);
     ss.getRange(5, col).setValue(items[i].name);
   }
